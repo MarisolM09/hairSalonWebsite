@@ -1,0 +1,80 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #A69C94;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 70%;
+    font-family: 'Nunito Sans', sans-serif;
+ }
+ .header {
+     background-color: #735443;
+ }
+ .section {
+     margin: 0 auto ;
+     padding: 20px 0 50px;
+     width: 960px;
+ }
+ 
+ h1 {
+     color: white;
+     margin: 0;
+     font-size: 45pt;
+ }
+ .h1 p {
+     margin: 0;
+     color: white;
+     font-size: 25pt;
+ }
+ .section ul li {
+     float: right;
+     list-style: none;
+     margin: 0 10px;
+     background-color: #261711;
+     border-radius: 10%;
+     font-size: 22pt;
+ }
+ a {
+     color: white;
+     text-decoration: none;
+ }
+ .main {
+     margin: 0 auto ;
+     min-height: 800px;
+     margin: 0 auto ;
+     padding: 20px 0 50px;
+     width: 960px;
+     background-color: white;
+ }
+ .gallery, .gallery2 {
+     display: flex;
+     flex-direction: row;
+     
+ }
+ #hair {
+     border-style: solid;
+     padding: 10px;
+ }
+ 
+ .footer {
+    background-color: #735443;
+ }
+ 
+ @media only screen and (max-width: 768px) {
+    .section {
+        width: 100%;
+        padding: 20px 0 50px;
+        width: 700px;
+    }
+    .main {
+        margin: 0 auto ;
+        min-height: 800px;
+        width: 100%;
+        padding: 20px 0 50px;
+        width: 700px;
+        background-color: white;
+    }
+    
+   
+
+}
