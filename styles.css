@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #A69C94;
+    font-family: 'Nunito Sans', sans-serif;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 85% 13%;
+    
+    
+ }
+ .header {
+     background-color: #735443;
+     box-sizing: border-box;
+     
+ }
+ .section {
+     margin: 0 auto ;
+     padding: 10px 0 30px;
+     width: 1200px;
+ }
+ 
+ h1 {
+     color: white;
+     margin: 0;
+     font-size: 45pt;
+ }
+ .h1 p {
+     margin: 0;
+     color: white;
+     font-size: 25pt;
+ }
+ .section ul li {
+     float: right;
+     list-style: none;
+     margin: 0 10px;
+     background-color: #261711;
+     border-radius: 10%;
+     font-size: 22pt;
+ }
+
+ .section a  {
+    color: white;
+     text-decoration: none;
+ }
+ .main {
+     margin: 0 auto ;
+     min-height: auto;
+     margin: 0 auto ;
+     padding: 20px 0 50px;
+     width: 1200px;
+     display: flex;
+     flex-direction: column;
+     
+}
+
+.smaller-imgs {
+     display: flex;
+     padding-top: 20px;
+ }
+ 
+ .img, #tools {
+    width: 1200px;
+    height: 600px;
+    box-sizing: border-box;
+    border-style: solid;
+    object-fit: cover;
+ }
+ 
+.haircut {
+     width: 25%;
+     padding: 5px;
+ }
+ #hair {
+    float: left;
+    width:  150px;
+    height: 200px;
+    object-fit: cover;
+    padding: 1px;
+}
+.footer {
+    grid-row: 3/4;
+    background-color: #735443;
+}
+
+@media only screen and (max-width: 1200px) {
+     .section {
+        width: 100%;
+        padding: 20px 0 50px;
+        width: 700px;
+    }
+    .smaller-imgs {
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .haircut {
+        width: 45%;
+        padding: 5px;
+    }
+    #hair {
+        width:  150px;
+        height: 300px;
+    }
+    
+}
