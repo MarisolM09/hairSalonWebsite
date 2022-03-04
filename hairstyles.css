@@ -1,25 +1,31 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #A69C94;
+    background-color: #EDEDED;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 20% 70%;
+    grid-template-rows: 15% 70% 15%;
     font-family: 'Nunito Sans', sans-serif;
  }
  .header {
-     background-color: #735443;
+     background-color: #4C8F96;
  }
  .section {
      margin: 0 auto ;
-     padding: 20px 0 50px;
+     padding-top: 5%;
      width: 960px;
+     display: flex;
+     justify-content: space-between;
  }
- 
- h1 {
-     color: white;
-     margin: 0;
-     font-size: 45pt;
+ .h1 {
+    color: white;
+    background-color: #1B2130;
+    width: 250px;
+    height: 150px;
+    font-size: 45pt;
+    text-align: center;
+    padding-top: 12px;
+    overflow: visible;
  }
  .h1 p {
      margin: 0;
@@ -30,7 +36,7 @@ body {
      float: right;
      list-style: none;
      margin: 0 10px;
-     background-color: #261711;
+     background-color: #1B2130;
      border-radius: 10%;
      font-size: 22pt;
  }
@@ -40,7 +46,7 @@ body {
  }
  .main {
      margin: 0 auto ;
-     min-height: 800px;
+     min-height: 880px;
      margin: 0 auto ;
      padding: 20px 0 50px;
      width: 960px;
@@ -55,10 +61,19 @@ body {
      border-style: solid;
      padding: 10px;
  }
- 
  .footer {
-    background-color: #735443;
+    background-color: #4C8F96;
  }
+ #social {
+     float: right;
+     font-size: 30px;
+     padding: 10px;
+     background-color: #387A82;
+}
+.footer p {
+    color: white;
+    text-align: center;
+}
  
  @media only screen and (max-width: 768px) {
     .section {
