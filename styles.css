@@ -1,34 +1,37 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #A69C94;
-    font-family: 'Nunito Sans', sans-serif;
+    background-color: #EDEDED;
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 15% 85% 13%;
-    
-    
- }
+    grid-template-rows: 15% 70% 15%;
+    font-family: 'Nunito Sans', sans-serif;
+}
  .header {
-     background-color: #735443;
-     box-sizing: border-box;
+     background-color: #4C8F96;
      
  }
  .section {
      margin: 0 auto ;
-     padding: 10px 0 30px;
-     width: 1200px;
+     padding-top: 5%;
+     width: 960px;
+     display: flex;
+     justify-content: space-between;
  }
- 
- h1 {
-     color: white;
-     margin: 0;
-     font-size: 45pt;
+ .h1 {
+    color: white;
+    background-color: #1B2130;
+    width: 250px;
+    height: 150px;
+    font-size: 45pt;
+    text-align: center;
+    padding-top: 12px;
+    overflow: visible;
  }
  .h1 p {
-     margin: 0;
-     color: white;
-     font-size: 25pt;
+    margin: 0;
+    color: white;
+    font-size: 25pt;
  }
  .section ul li {
      float: right;
@@ -41,32 +44,27 @@ body {
 
  .section a  {
     color: white;
-     text-decoration: none;
+    text-decoration: none;
  }
  .main {
-     margin: 0 auto ;
-     min-height: auto;
-     margin: 0 auto ;
+     margin: 0 auto;
+     min-height: 880px;
+     margin: 0 auto;
      padding: 20px 0 50px;
      width: 1200px;
      display: flex;
      flex-direction: column;
-     
-}
+ }
 
 .smaller-imgs {
      display: flex;
      padding-top: 20px;
  }
- 
  .img, #tools {
     width: 1200px;
     height: 600px;
-    box-sizing: border-box;
     border-style: solid;
-    object-fit: cover;
  }
- 
 .haircut {
      width: 25%;
      padding: 5px;
@@ -79,8 +77,18 @@ body {
     padding: 1px;
 }
 .footer {
-    grid-row: 3/4;
-    background-color: #735443;
+    background-color: #4C8F96;
+    
+}
+ #social {
+     float: right;
+     font-size: 30px;
+     padding: 10px;
+     background-color: #387A82;
+}
+.footer p {
+    color: white;
+    text-align: center;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -89,6 +97,7 @@ body {
         padding: 20px 0 50px;
         width: 700px;
     }
+
     .smaller-imgs {
         display: flex;
         flex-direction: column;
